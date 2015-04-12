@@ -1,4 +1,4 @@
-# RSS-JPCERT
+# Send e-mail about rss of jpcert information 
 
 Web scrapingとcronでJPCERTのRSS情報をメールで配信する
 
