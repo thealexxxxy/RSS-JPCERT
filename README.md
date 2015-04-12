@@ -2,10 +2,12 @@
 
 スクレイピングとクーロンでJPCERTのRSS情報をメールで配信する
 
-ファイルを任意のディレクトリに設置する  
+#### Usage
+
+1.ファイルを任意のディレクトリに設置する  
 ```
 $ ls /home/hogehoge/bin/
-jpcert_rss.rb     jpcert_vulnerability_rss.rb
+jpcert_rss.rb     jpcert_vulnerability_rss.rb     jpcert.sh       jpcert_backup.sh      jpcert_vulnerability_backup.sh        jpcert_vulnerability.sh
 ```
 
 ```
