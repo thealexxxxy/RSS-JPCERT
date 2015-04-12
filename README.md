@@ -4,7 +4,7 @@ Web scrapingとcronでJPCERTのRSS情報をメールで配信する
 
 #### Requirements
 ・ Ruby >= 2.0 or 1.8  
-・ Cent OS 6.X
+・ Cent OS >= 6.X
 
 #### Usage
 
