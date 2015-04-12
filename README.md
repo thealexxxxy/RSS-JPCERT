@@ -8,12 +8,12 @@ Web scrapingとcronでJPCERTのRSS情報をメールで配信する
 
 #### Usage
 
-1.ファイルを任意のディレクトリに設置する  
+ **1.ファイルを任意のディレクトリに設置する**  
 ```
 $ ls /home/hogehoge/bin/
 jpcert_rss.rb     jpcert_vulnerability_rss.rb     jpcert.sh       jpcert_backup.sh      jpcert_vulnerability_backup.sh        jpcert_vulnerability.sh
 ```
-2.cronの設定
+ **2.cronの設定**
 ```
 $ crontab -l
 #JPCERT_RSS
@@ -32,7 +32,7 @@ $ crontab -l
 
 
 
-3.以下のようにメール上でRSSの確認ができる。
+**3.以下のようにメール上でRSSが確認できる**
 
 ###### subject:[JPCERT] Recent Vulnerability Notes
 ```
