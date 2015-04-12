@@ -25,7 +25,6 @@ $ crontab -l
 0 0-23/4 * * * cd /home/hogehoge/bin && /usr/local/bin/ruby jpcert_vulnerability_rss.rb
 01 0-23/4 * * * /home/hogehoge/bin/jpcert_vulnerability.sh >/dev/null 2>&1
 02 0-23/4 * * * /home/hogehoge/bin/jpcert_vulnerability_backup.sh >/dev/null
-
 ```
 ここでは、4時間おきに更新されていないかチェックし
 更新されていた場合は、指定したメールに送信される。
