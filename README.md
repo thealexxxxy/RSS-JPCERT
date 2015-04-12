@@ -1,6 +1,6 @@
 # RSS-JPCERT
 
-スクレイピングとクーロンでJPCERTのRSS情報をメールで配信する
+Web scrapingとcronでJPCERTのRSS情報をメールで配信する
 
 #### Usage
 
@@ -9,7 +9,7 @@
 $ ls /home/hogehoge/bin/
 jpcert_rss.rb     jpcert_vulnerability_rss.rb     jpcert.sh       jpcert_backup.sh      jpcert_vulnerability_backup.sh        jpcert_vulnerability.sh
 ```
-
+2.cronの設定
 ```
 $ crontab -l
 #JPCERT_RSS
@@ -23,9 +23,13 @@ $ crontab -l
 02 0-23/4 * * * /home/hogehoge/bin/jpcert_vulnerability_backup.sh >/dev/null
 
 ```
+ここでは、4時間おきに更新されていないかチェックし
+更新されていた場合は、指定したメールに送信される。
 
 
-以下のようにでメール上でRSSの確認ができる。
+
+
+3.以下のようにでメール上でRSSの確認ができる。
 ```
 sub:[JPCERT] Recent Vulnerability Notes
 TERASOLUNA Server Framework for Java(WEB) の Validator に入力値検査回避の脆弱性
