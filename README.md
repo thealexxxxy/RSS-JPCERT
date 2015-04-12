@@ -1,9 +1,12 @@
 # RSS-JPCERT
 
-スクレイピングとクーロンでJPCERTのRSS情報をメールに配信する
+スクレイピングとクーロンでJPCERTのRSS情報をメール配信する
 
 ファイルを任意のディレクトリに設置する  
-/home/hogehoge/bin/
+```
+$ ls /home/hogehoge/bin/
+jpcert_rss.rb     jpcert_vulnerability_rss.rb
+```
 
 ```
 $ crontab -l
