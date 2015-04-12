@@ -29,7 +29,7 @@ $ crontab -l
 
 
 
-3.以下のようにでメール上でRSSの確認ができる。
+3.以下のようにメール上でRSSの確認ができる。
 ```
 sub:[JPCERT] Recent Vulnerability Notes
 TERASOLUNA Server Framework for Java(WEB) の Validator に入力値検査回避の脆弱性
